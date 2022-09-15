@@ -1,18 +1,18 @@
-var array = [];
+let array = [];
 
 export function addTo(num){
-    if(num<0)
+    if(num>0)
     {
-        console.log("Error num is less than 0");
-    }else {
         array.push(num);
+    }else {
+        console.log("Error num is less than 0");
     }
 }
 
 export function avg(){
-    var sum=0;
+    var sum = 0;
     for (let index = 0; index < array.length; index++) {
-        sum+=avg[index];
+        sum+=array[index];
     }
     return sum/array.length;
 }
