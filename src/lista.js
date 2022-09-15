@@ -1,7 +1,7 @@
 let array = [];
 
 export function addTo(num){
-    if(num>0)
+    if(num>=0)
     {
         array.push(num);
     }else {
