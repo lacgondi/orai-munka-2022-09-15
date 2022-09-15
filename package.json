@@ -5,7 +5,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/lacgondi/orai-munka-2022-09-15/issues"
   },
-  "homepage": "https://github.com/lacgondi/orai-munka-2022-09-15#readme"
+  "homepage": "https://github.com/lacgondi/orai-munka-2022-09-15#readme",
+  "dependencies": {
+    "webpack": "^5.74.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.10.0"
+  }
 }
